@@ -45,7 +45,7 @@ def hit?(card_total)
   if user_input == 's'
     #prompt_user
   elsif user_input == 'h'
-  card_total = card_total + deal_card
+  card_total += deal_card
   else
     #binding.pry 
     invalid_command
